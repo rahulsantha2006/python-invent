@@ -1,2 +1,2 @@
 
-print('Appa is a blati bombay biscut')
+print('Hello world')
