@@ -42,19 +42,21 @@ def checkCave(chosenCave, itemChosen):
 
     friendlyCave = random.randint(1, 2)
 
-    if chosenCave == str(friendlyCave) and itemChosen == 2:
+    if chosenCave == str(friendlyCave) and itemChosen=='1':
         print('Gives you his treasure')
-        print('And eats your candy happily')
+        print('and farts at you for not bringing any candy')
 
-    elif chosenCave == str(friendlyCave) and itemChosen == 1:
+    if chosenCave == str(friendlyCave) and itemChosen=='2':
         print('Gives you his treasure')
-        print(' And farts at you')
+        print('and eats the candy happily')
 
-    elif chosenCave != str(friendlyCave) and itemChosen == 1:
-        print("Dies because you stab it with your new sword")
+    if chosenCave != str(friendlyCave) and itemChosen=='1':
+        print('tries to eat you but you slay the dragon')
 
-    elif chosenCave != str(friendlyCave) and itemChosen == 2:
-        print('gobbles you up in 1 bite,a nd enjoys your piece of candy')
+    if chosenCave != str(friendlyCave) and itemChosen =='2':
+        print('eats you and the candy for dinner')
+
+
 
 
 # This is the start of the program
